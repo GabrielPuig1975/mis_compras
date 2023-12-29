@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Lista de compras</title>
+  </head>
+  <body>
+    <h1>Mis compras</h1>
+    <div class="applic">
+      <header>
+        <div class="header__items">
+          <form>
+            <label for="prod">
+              Producto
+              <input type="text" id="prod" />
+            </label>
+            <label for="cantidad">
+              Cant.
+              <input type="number" id="cantidad" />
+            </label>
+            <button
+              type="button"
+              id="clear"
+              class="clear"
+              style="background-color: rgb(227, 163, 163)"
+            >
+              Clear
+            </button>
+            <label for="add">
+              <button type="button" class="plus" id="add">Añadir</button>
+            </label>
+          </form>
+        </div>
+      </header>
+
+      <section class="section__body">
+        <div class="adding"></div>
+      </section>
+
+      <footer>
+        <div class="gastos">
+          <form>
+            <label for="total">
+              Total
+              <input type="text" id="total" />
+            </label>
+          </form>
+        </div>
+      </footer>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
